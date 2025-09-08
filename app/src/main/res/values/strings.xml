@@ -1,5 +1,4 @@
 <resources>
-
     <string name="app_name">Palm Sample</string>
 
     <string-array name="stream_type">
@@ -11,5 +10,4 @@
         <item>RGBD_IR</item>
         <item>DEPTH_IR</item>
     </string-array>
-
 </resources>
