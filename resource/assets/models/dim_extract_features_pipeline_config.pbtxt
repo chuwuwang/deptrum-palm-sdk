@@ -1,0 +1,103 @@
+operator_info{
+	seq:1
+	operator_type:kPalmDetectorAeOperator
+	decision_branches{
+		next_seq:2
+	}
+
+}
+operator_info{
+	seq:2
+	operator_type:kPalmRegressionOperator
+	decision_branches{
+		next_seq:3
+	}
+}
+
+operator_info{
+	seq:3
+	operator_type:kPalmImgCropOperator
+	decision_branches{
+		next_seq:4
+	}
+}
+
+
+operator_info{
+	seq:4
+	operator_type:kPalmSkeletonOperator
+	decision_branches{
+		next_seq:5
+	}
+}
+
+operator_info{
+	seq:5
+	operator_type:kPalmImgNormOperator
+	decision_branches{
+		next_seq:6
+	}
+}
+
+
+operator_info{
+	seq:6
+	operator_type:kPalmRegisterChosenOperator
+	decision_branches{
+		next_seq:7
+		key_parameters{
+			param_name:"RecogImgMoal"
+			value_type:TypeInt
+			int_value:1
+		}
+	}
+	decision_branches{
+		next_seq:8
+		key_parameters{
+			param_name:"RecogImgMoal"
+			value_type:TypeInt
+			int_value:2
+		}
+	}
+	decision_branches{
+		next_seq:9
+		key_parameters{
+			param_name:"RecogImgMoal"
+			value_type:TypeInt
+			int_value:3
+		}
+	}
+}
+
+
+operator_info{
+	seq:7
+	operator_type:kPalmIrRecognitionOperator
+	decision_branches{
+		next_seq:1000
+	}
+}
+
+operator_info{
+	seq:8
+	operator_type:kPalmRgbRecognitionOperator
+	decision_branches{
+		next_seq:1000
+	}
+}
+
+operator_info{
+	seq:9
+	operator_type:kPalmIrRecognitionOperator
+	decision_branches{
+		next_seq:10
+	}
+}
+
+operator_info{
+	seq:10
+	operator_type:kPalmRgbRecognitionOperator
+	decision_branches{
+		next_seq:1000
+	}
+}

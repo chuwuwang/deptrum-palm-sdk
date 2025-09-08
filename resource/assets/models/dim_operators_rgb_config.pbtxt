@@ -1,0 +1,179 @@
+model_config_path:"./palm_models_rgb_config.pbtxt"
+
+operator_config{
+	operator_name:"PalmRegressionOperator"
+	inference_name:"InferencePalmRegression"
+	model_name:"palm_regression"
+	operator_type:kPalmRegressionOperator
+	need_model:true
+	enable:true
+	param_configs{
+		param_name:"PalmRegressionCropRatio"
+		param_value:4.0
+	}
+}
+
+operator_config{
+	operator_name:"PalmDetectorOperator"
+	inference_name:"InferencePalmAnchorFreeDetector"
+	model_name:"palm_ae_detection"
+	operator_type:kPalmDetectorAeOperator
+	need_model:true
+	enable:true
+	param_configs{
+		param_name:"DetectorConfidence"
+		param_value:0.35
+	}
+	param_configs{
+		param_name:"DetectorNms"
+		param_value:0.4
+	}
+	param_configs{
+		param_name:"DetectorMinSize"
+		param_int_array{
+			int_array:8
+			int_array:8
+			int_array:16
+			int_array:16
+			int_array:32
+			int_array:32
+			int_array:64
+			int_array:64
+			int_array:128
+			int_array:128
+			int_array:256
+			int_array:256
+		}
+	}
+	param_configs{
+		param_name:"DetectorSteps"
+		param_int_array{
+			int_array:8
+			int_array:16
+			int_array:32
+		}
+	}
+}
+operator_config{
+	operator_name:"PalmImgCropOperator"
+	operator_type:kPalmImgCropOperator
+	need_model:false
+	enable:true
+	param_configs{
+		param_name:"CropRatio"
+		param_value:1.3
+	}
+}
+
+operator_config{
+	operator_name:"PalmImgNormOperator"
+	operator_type:kPalmImgNormOperator
+	need_model:false
+	enable:true
+}
+
+operator_config{
+	operator_name:"PalmQualityOperator"
+	inference_name:"InferencePalmQuality128"
+	model_name:"palm_phone_register_quality@baseline5_eval_283_backbone"
+	operator_type:kPalmRegisterQualityPhoneRgbOperator
+	need_model:true
+	enable:true
+	param_configs{
+		param_name:"InputChannel"
+		param_value:3
+	}
+}
+operator_config{
+	operator_name:"PalmQualityOperator"
+	inference_name:"InferencePalmReliability"
+	model_name:"palm_phone_register_reliablity@baseline6_epoch_266_312000_312"
+	operator_type:kPalmRegisterReliabilityPhoneRgbOperator
+	need_model:true
+	enable:true
+}
+
+operator_config{
+	operator_name:"PalmQualityOperator"
+	inference_name:"InferencePalmQualityColorGray"
+	model_name:"palm_liveness_rgb"
+	operator_type:kPalmLivenessColorGrayOperator
+	need_model:true
+	enable:true
+}
+
+operator_config{
+	operator_name:"PalmQualityOperator"
+	inference_name:"InferencePalmReliability"
+	model_name:"palm_rgb_reliability"
+	operator_type:kPalmReliabilityRgbOperator
+	need_model:true
+	enable:true
+}
+
+operator_config{
+	operator_name:"PalmQualityOperator"
+	inference_name:"InferencePalmReliability"
+	model_name:"palm_rgb_register_reliability"
+	operator_type:kPalmRegisterReliabilityRgbOperator
+	need_model:true
+	enable:true
+}
+
+operator_config{
+	operator_name:"PalmRecognitionOperator"
+	inference_name:"InferencePalmRecognition"
+	model_name:"palmprint_rgb_recognition@baseline11_exp17_eval177"
+	operator_type:kPalmRgbRecognitionOperator
+	need_model:true
+	need_latest_hash:true
+	enable:true
+	hash_configs{
+		hash_name:"RgbLatestHash"
+		latest_hash:"palmprint_rgb_recognition@baseline11_exp17_eval177"
+	}
+	param_configs{
+		param_name:"RecognitionImgModal"
+		param_value:2.0
+	}
+	param_configs{
+		param_name:"RecognitionThreshold"
+		param_value:0.7253
+	}
+	
+}
+
+operator_config{
+	operator_name:"PalmSkeletonOperator"
+	inference_name:"InferencePalmSkeleton"
+	model_name:"palm_kps"
+	operator_type:kPalmSkeletonOperator
+	need_model:true
+	enable:true
+	param_configs{
+		param_name:"CropRatio"
+		param_value:1.3
+	}
+	param_configs{
+		param_name:"OriginImgWidth"
+		param_value:720
+	}
+	param_configs{
+		param_name:"OriginImgHeight"
+		param_value:1024
+	}
+}
+
+operator_config{
+	operator_name:"PalmRegisterChosenOperator"
+	operator_type:kPalmRegisterChosenOperator
+	need_model:false
+	enable:true
+}
+
+operator_config{
+	operator_name:"PalmPlaceholderOperator"
+	operator_type:kPalmPlaceholderOperator
+	need_model:false
+	enable:true
+}

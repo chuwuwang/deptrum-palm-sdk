@@ -1,0 +1,898 @@
+# Release v1.3.31 L明文, p密文:	2025/07/14
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.更新palm-sdk。去掉hint 3000，切成功输出成功，失败输出失败。
+
+## Submodule Versions
+
+   1. palm-sdk Release 1.3.65
+   2. dim-palm v1.3.61
+   3. stream-sdk-version v1.5.42
+   4. model-version v1.3.61
+---------------------------------------------------------------------------
+
+# Release v1.3.30 L明文, p密文:	2025/07/11
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.无论抓拍和注册是否成功，都传出分数和result
+   2.添加pid:3150的支持
+
+## Submodule Versions
+
+   1. palm-sdk Release 1.3.63
+   2. dim-palm v1.3.60
+   3. stream-sdk-version v1.5.42
+   4. model-version v1.3.61
+---------------------------------------------------------------------------
+
+# Release v1.3.29 L明文, p密文:	2025/07/08
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.升级算法
+
+## Submodule Versions
+
+   1. palm-sdk Release 1.3.63
+   2. dim-palm v1.3.58
+   3. stream-sdk-version v1.5.41
+   4. model-version v1.3.61
+---------------------------------------------------------------------------
+
+
+# Release v1.3.27 L明文, p密文:	2025/07/01
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.升级算法
+
+## Submodule Versions
+
+   1.palm-sdk Release 1.3.60
+   2.dim-palm v1.3.6d0701d2
+---------------------------------------------------------------------------
+
+# Release v1.3.26 明文:	2025/06/28
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.第二个应用多次调用create接口时，增加失败回调。
+
+## Submodule Versions
+
+    1. stream sdk v1.5.38
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version 1.3.58
+---------------------------------------------------------------------------
+
+# Release v1.3.26 明文:	2025/06/11
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.更新palm_sdk解决安卓第二个应用调用open时崩溃问题
+
+## Submodule Versions
+
+    1. stream sdk v1.5.38
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version 1.3.58
+---------------------------------------------------------------------------
+
+# Release v1.3.25 密文:	2025/06/11
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.更新密文版本 同明文v1.3.25版本
+
+## Submodule Versions
+
+    1. stream sdk v1.5.36
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version 1.3.57
+---------------------------------------------------------------------------
+
+
+# Release v1.3.25 明文:	2025/06/11
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.针对抓拍失败存图接口，添加回调用于通知上层是否保存成功，添加剩余磁盘空间作为入参
+   2.优化下public static void create接口
+
+## Submodule Versions
+
+    1. stream sdk v1.5.36
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version 1.3.57
+---------------------------------------------------------------------------
+
+
+# Release v1.3.24 明文:	2025/05/29
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.使用明文版本palm-sdk ,修复android 8及以下低版本广播会出现热插拔问题
+
+## Submodule Versions
+
+    1. stream sdk v1.5.34
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.55
+---------------------------------------------------------------------------
+
+# Release v1.3.24 加密:	2025/05/29
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.使用加密版本palm-sdk ,修复android 8及以下低版本广播会出现热插拔问题
+
+## Submodule Versions
+
+    1. stream sdk v1.5.34
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.55
+---------------------------------------------------------------------------
+
+
+
+# Release v1.3.23 加密:	2025/05/28
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.使用加密版本palm-sdk
+
+## Submodule Versions
+
+    1. stream sdk v1.5.34
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.55
+---------------------------------------------------------------------------
+
+
+# Release v1.3.23:	2025/05/20
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.适配新的pid
+
+## Submodule Versions
+
+    1. stream sdk v1.5.34
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.55
+---------------------------------------------------------------------------
+
+
+
+# Release v1.3.22:	2025/05/14
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+   1.更改混淆时的自动命名，防止不同jar包同包名类名冲突
+   2.几个score改为map
+   3.增加PSensorValue
+   4.captureCallback增加pSensor,hint回调增加score
+   5.同步Hint与PalmDetectResult的枚举值
+   6.修改registerPalm
+   7.增加获取isp接口
+   8.修改L中英文文档
+
+## Submodule Versions
+
+    1. stream sdk v1.5.29
+    2. dim-palm version v1.3.8
+    3. DimPalmModel Version v1.3.5
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.54
+---------------------------------------------------------------------------
+
+
+# Release v1.3.21:	2025/04/23
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. android sdk去掉实现的编码，使用palm sdk提供的
+
+## Submodule Versions
+
+    1. stream sdk v1.5.29
+    2. dim-palm version v1.3.3
+    3. DimPalmModel Version v1.3.2
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.50
+---------------------------------------------------------------------------
+
+
+# Release v1.3.20:	2025/04/19
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. sdk集成Base64编码，使用jpeg
+
+## Submodule Versions
+
+    1. stream sdk v1.5.28
+    2. dim-palm version v1.3.3
+    3. DimPalmModel Version v1.3.2
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.48
+---------------------------------------------------------------------------
+
+
+# Release v1.3.19:	2025/04/19
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 修复sdk 34及以上时报错"One of RECEIVER_EXPORTED or RECEIVER_NOT_EXPORTED should be specified when a receiver isn't being registered exclusively for system broadcasts",升级版本为v1.3.19
+
+## Submodule Versions
+
+    1. stream sdk v1.5.28
+    2. dim-palm version v1.3.3
+    3. DimPalmModel Version v1.3.2
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.48
+---------------------------------------------------------------------------
+
+
+# Release v1.3.18:	2025/04/18
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新sdk
+
+## Submodule Versions
+
+    1. stream sdk v1.5.28
+    2. dim-palm version v1.3.3
+    3. DimPalmModel Version v1.3.2
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.48
+---------------------------------------------------------------------------
+
+
+# Release v1.3.17:	2025/04/17
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 识别成功判断条件result.palm_detect_result 改为result.live_palm_errors
+
+## Submodule Versions
+
+
+    1. stream sdk v1.5.22
+    2. dim-palm version v1.2.8
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.39
+---------------------------------------------------------------------------
+
+
+# Release v1.3.16:	2025/02/13
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. update single ir for palm-sdk 1.3.39
+
+## Submodule Versions
+
+    1. stream sdk v1.5.22
+    2. dim-palm version v1.2.8
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.39
+---------------------------------------------------------------------------
+# Release v1.3.15:	2024/11/5
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. update single rgb for palm-sdk 1.3.43
+
+## Submodule Versions
+
+    1. stream sdk v1.5.22
+    2. dim-palm version v1.2.0
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.43
+---------------------------------------------------------------------------
+# Release v1.3.13:	2024/10/18
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. update single rgb
+
+## Submodule Versions
+
+    1. stream sdk v1.5.22
+    2. dim-palm version v1.2.8
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.41
+---------------------------------------------------------------------------
+# Release v1.3.12:	2024/10/15
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新模型配置文件
+
+## Submodule Versions
+
+    1. stream sdk v1.5.22
+    2. dim-palm version v1.2.8
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.39
+---------------------------------------------------------------------------
+# Release v1.3.11:	2024/10/11
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新palm sdk版本,更新palm client版本,更新dim palm 1.2.6以及对应模型配置文件
+
+## Submodule Versions
+
+    1. stream sdk v1.5.22
+    2. dim-palm version v1.2.8
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.38
+---------------------------------------------------------------------------
+# Release v1.3.10:	2024/9/18
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新palm sdk版本,更新palm client版本,更新dim palm 1.2.6以及对应模型配置文件
+
+## Submodule Versions
+
+    1. stream sdk v1.5.19
+    2. dim-palm version v1.2.6
+    3. ClientSdkVersion v0.1.11
+    4. palm sdk version v1.3.36
+---------------------------------------------------------------------------
+
+# Release v1.3.9:	2024/9/11
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 优化 P 版本的比对耗时
+
+## Submodule Versions
+
+    1. stream sdk v1.5.19
+    2. dim-palm version v1.2.4
+    3. ClientSdkVersion v0.1.10
+    4. palm sdk version v1.3.34
+---------------------------------------------------------------------------
+
+# Release v1.3.8:	2024/9/09
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 修改开启心跳接口入参
+    2. N版本去除读写license接口
+    3. 更新接口文档
+
+## Submodule Versions
+
+    1. stream sdk v1.5.19
+    2. dim-palm version v1.2.4
+    3. ClientSdkVersion v0.1.10
+    4. palm sdk version v1.3.34
+---------------------------------------------------------------------------
+
+# Release v1.3.7:	2024/8/29
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新palm sdk1.3.32,修复单次抓拍无法停止抓拍问题,修复licence字符问题,修复createclient的ip不正确时仍然返回成功的问题等
+    2. 修改设备名称为Veinshine01
+    3. example中渲染手掌ROI
+    4. 更新使用指南
+
+## Submodule Versions
+
+    1. stream sdk v1.5.18
+    2. dim-palm version v1.2.3
+    3. ClientSdkVersion v0.1.10
+    4. palm sdk version v1.3.32
+---------------------------------------------------------------------------
+
+# Release v1.3.6:	2024/8/21
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 新增P和L的示例程序
+
+## Submodule Versions
+
+    1. stream sdk v1.5.16
+    2. dim-palm version v1.2.0
+    3. ClientSdkVersion v0.1.4
+    4. palm sdk version v1.3.30
+---------------------------------------------------------------------------
+
+# Release v1.3.5:	2024/8/20
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.30 palm sdk ,更新1.2.0支持单ir的配置文件(纯CPU通用配置)
+    2. 修复算法初次使能偶现失败问题
+    3. 修复打开设备使能算法再关闭设备后再次打开使能算法成功但是无法抓拍的问题
+    4. 适配单IR模组
+    5. 更加丰富的抓拍失败的回调
+
+## Submodule Versions
+
+    1. stream sdk v1.5.16
+    2. dim-palm version v1.2.0
+    3. ClientSdkVersion v0.1.4
+    4. palm sdk version v1.3.30
+---------------------------------------------------------------------------
+
+# Release v1.3.4:	2024/7/30
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.25 palm sdk ,更新1.2.0的模型
+
+## Submodule Versions
+
+    1. stream sdk v1.5.11
+    2. dim-palm version v1.2.0
+    3. ClientSdkVersion v0.1.4
+    4. palm sdk version v1.3.25
+---------------------------------------------------------------------------
+
+# Release v1.3.3:	2024/7/26
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.24 palm sdk ,更新1.1.8的模型
+    2. 修复存图接口crash问题
+    3. 修复出来过程中拔出设备导致crash问题
+
+## Submodule Versions
+
+    1. stream sdk v1.5.10
+    2. dim-palm version v1.1.6
+    3. ClientSdkVersion v0.1.4
+    4. palm sdk version v1.3.24
+---------------------------------------------------------------------------
+
+# Release v1.3.2:	2024/7/20
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 修复出流在多线程getFrame之后操作帧数据会crash的问题
+
+## Submodule Versions
+
+    1. stream sdk v1.5.10
+    2. dim-palm version v1.1.6
+    3. ClientSdkVersion v0.1.4
+    4. palm sdk version v1.3.21
+---------------------------------------------------------------------------
+
+# Release v1.3.1:	2024/7/18
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.21 palm sdk
+    2. EC、ECA、VS01A开头的sn，所有版本都能使用
+    3. 适配PID 0x2009的模组
+
+## Submodule Versions
+
+    1. stream sdk v1.5.10
+    2. dim-palm version v1.1.6
+    3. ClientSdkVersion v0.1.4
+    4. palm sdk version v1.3.21
+---------------------------------------------------------------------------
+
+# Release v1.3.0:	2024/7/11
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.20 palm sdk,更新1.1.6模型
+    2. 编译四个版本,并更新不同版本的接口文档
+
+## Submodule Versions
+
+    1. stream sdk v1.5.9
+    2. dim-palm version v1.1.6
+    3. ClientSdkVersion v0.1.4
+    4. palm sdk version v1.3.20
+---------------------------------------------------------------------------
+
+# Release v1.2.6:	2024/7/04
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.17 palm sdk,更新1.1.6的dim-palm以及1.1.5模型
+
+## Submodule Versions
+
+    1. stream sdk v1.5.6
+    2. dim-palm version v1.1.6
+    3. ClientSdkVersion v0.1.4
+    4. palm sdk version v1.3.17
+---------------------------------------------------------------------------
+
+# Release v1.2.5:	2024/6/26
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 打开设备时打印isp
+
+## Submodule Versions
+
+    1. stream sdk v1.5.5
+    2. dim-palm version v1.1.2
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.16
+---------------------------------------------------------------------------
+
+# Release v1.2.4:	2024/6/18
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.13 palm sdk: 更新1.1.2的dim-palm
+    2. 适配PID为0x1009的模组
+
+## Submodule Versions
+
+    1. stream sdk v1.5.3
+    2. dim-palm version v1.1.2
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.15
+---------------------------------------------------------------------------
+
+# Release v1.2.3:	2024/6/5
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.13 palm sdk: 更新1.1.0的dim-palm
+    2. 打开静默升级
+    3. 【需要烧录新的license才能使能算法！！！】
+
+## Submodule Versions
+
+    1. stream sdk v1.5.0
+    2. dim-palm version v1.1.0
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.13
+---------------------------------------------------------------------------
+
+# Release v1.2.2:	2024/5/29
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.12 palm sdk: 更新1.0.42-encryption的dim-palm
+    2. 优化接口和入参
+    3. 文档新增PalmClient相关错误码
+    4. palmClient修复断网后调用query等接口会crash的问题
+
+## Submodule Versions
+
+    1. stream sdk v1.4.9
+    2. dim-palm version v1.0.42-encryption
+    3. ClientSdkVersion v0.1.3
+    4. palm sdk version v1.3.12
+---------------------------------------------------------------------------
+
+# Release v1.2.0:	2024/5/10
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.3.9 palm sdk: 更新1.0.39-encryption的dim-palm;
+                           解耦特征值加密和模型加密,不再判断读取license;
+                           部分接口入参Mat类型变为Frame自定义结构体;
+                           图像提取特征值改为对应接口。
+    2. 新增从图片提取手掌特征值接口extractPalmFeaturesFromImg(),新增ExtractOutput类。
+    3. 去掉ExternalInfo类,只保留ExtraFramesInfo类。
+    4. 新增ImageInstance类,registerPalm()入参修改为ImageInstance。
+    5. createClientPalm()改名为createPalmClient(),并新增hostName入参。
+    6. register()改名为registerToServer(),并优化入参。
+    7. query()优化入参。
+    8. 删除getClientVersion()接口,在createPalmClient()调用成功时日志打印一次即可。
+    9. 修复readLicense() writeLicense()功能异常的问题。
+    10. open后设置一个灯光。
+
+## Submodule Versions
+
+    1. stream sdk v1.4.8
+    2. dim-palm version v1.0.39-encryption
+    3. palm sdk version v1.3.9
+---------------------------------------------------------------------------
+# Release v1.1.6:	2024/4/23
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新1.0.35算法版本以及1.0.35模型,palm-sdk更新了palm-client头文件一些接口的参数定义类型。
+    2. 修复和palm_client通信的注册和查询接口rgb ir特征值放错位置的问题。
+
+## Submodule Versions
+
+    1. stream sdk v1.4.1
+    2. dim-palm version v1.0.35-encryption
+    3. palm sdk version v1.3.1
+---------------------------------------------------------------------------
+# Release v1.1.5:	2024/4/16
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 新增读写模组license接口
+    2. 新增palm_client相关接口
+    3. 更新1.0.33版本模型文件
+    4. 抓拍手掌成功的回调输出BGR格式的彩色图片数据
+
+## Submodule Versions
+
+    1. stream sdk v1.4.0
+    2. dim-palm version v1.0.33-encryption
+    3. palm sdk version v1.3.0
+---------------------------------------------------------------------------
+# Release v1.1.2:	2024/4/03
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新dim-palm 1.0.27版本以及1.0.26的模型文件。
+    2. 注册接口入参修改，无需传入识别模式参数，在JNI层直接传双模态参数。
+    3. 区分内部版本和外部版本,外部版本无比对接口
+
+## Submodule Versions
+
+    1. stream sdk v1.3.3
+    2. dim-palm version v1.0.27-encryption
+    3. palm sdk version v1.2.2
+---------------------------------------------------------------------------
+# Release v1.1.1:	2024/3/28
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新dim-palm版本,抓拍回调结果输出rgb ir两个特征值。
+    2. 去除setMode和获取支持的帧模式接口。
+
+## Submodule Versions
+
+    1. stream sdk v1.2.9
+    2. dim-palm version v1.0.22-encryption
+    3. palm sdk version v1.1.1
+---------------------------------------------------------------------------
+# Release v1.1.0:	2024/3/26
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 更新dim-palm版本,该版本输出的特征值为加密版本,compare也使用解密版本接口。
+    2. 修改DeviceInfo字段命名。
+
+## Submodule Versions
+
+    1. stream sdk v1.2.6
+    2. dim-palm version v1.0.21-encryption
+    3. palm sdk version v1.1.0
+---------------------------------------------------------------------------
+# Release v1.0.2:	2024/3/22
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. 新增注册接口
+    2. 更新dim-palm-v1.0.17-RK3288版本的模型文件
+
+## Submodule Versions
+
+    1. stream sdk v1.2.5
+    2. dim-palm version v1.0.20-encryption
+    3. palm sdk version v1.0.1
+---------------------------------------------------------------------------
+# Release v1.0.1:	2024/03/18
+
+## Major Features and Improvements
+
+## Breaking Changes
+
+## Bug Fixes and Other Changes
+
+    1. stream android sdk  eyecore初版
+
+## Submodule Versions
+
+---------------------------------------------------------------------------
