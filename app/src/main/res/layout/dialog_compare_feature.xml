@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/ed_rgb_src"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="text"
+        android:text="/sdcard/palm/rgbSrc.png"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_rgb_src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="RGB srcPath:"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/ed_rgb_src"
+        app:layout_constraintEnd_toStartOf="@+id/ed_rgb_src"
+        app:layout_constraintTop_toTopOf="@+id/ed_rgb_src" />
+
+    <EditText
+        android:id="@+id/ed_ir_src"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:inputType="text"
+        android:text="/sdcard/palm/irSrc.png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ed_rgb_src"
+        app:layout_constraintTop_toBottomOf="@id/ed_rgb_src" />
+
+    <TextView
+        android:id="@+id/tv_ir_src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="IR srcPath:"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/ed_ir_src"
+        app:layout_constraintEnd_toStartOf="@+id/ed_ir_src"
+        app:layout_constraintTop_toTopOf="@+id/ed_ir_src" />
+
+    <EditText
+        android:id="@+id/ed_rgb_dest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:inputType="text"
+        android:text="/sdcard/palm/rgbDest.png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ed_ir_src"
+        app:layout_constraintTop_toBottomOf="@id/ed_ir_src" />
+
+    <TextView
+        android:id="@+id/tv_rgb_dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="RGB destPath:"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/ed_rgb_dest"
+        app:layout_constraintEnd_toStartOf="@+id/ed_rgb_dest"
+        app:layout_constraintTop_toTopOf="@+id/ed_rgb_dest" />
+
+    <EditText
+        android:id="@+id/ed_ir_dest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="/sdcard/palm/irDest.png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ed_rgb_dest"
+        app:layout_constraintTop_toBottomOf="@id/ed_rgb_dest" />
+
+    <TextView
+        android:id="@+id/tv_ir_dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="IR destPath:"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/ed_ir_dest"
+        app:layout_constraintEnd_toStartOf="@+id/ed_ir_dest"
+        app:layout_constraintTop_toTopOf="@+id/ed_ir_dest" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed_ir_dest" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

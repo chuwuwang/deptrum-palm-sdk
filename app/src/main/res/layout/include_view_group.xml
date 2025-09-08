@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:text="打开设备"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_device_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/btn_open"
+        app:layout_constraintTop_toTopOf="@+id/btn_open"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_open" />
+
+    <TextView
+        android:id="@+id/tv_stream_mode"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="流类型："
+        app:layout_constraintStart_toStartOf="@+id/btn_open"
+        app:layout_constraintTop_toBottomOf="@+id/btn_open" />
+
+    <Spinner
+        android:id="@+id/spinner_stream_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/tv_stream_mode"
+        app:layout_constraintTop_toTopOf="@+id/tv_stream_mode"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_stream_mode" />
+
+    <Switch
+        android:id="@+id/switch_stream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="启动流"
+        app:layout_constraintStart_toEndOf="@+id/spinner_stream_mode"
+        app:layout_constraintTop_toTopOf="@+id/spinner_stream_mode"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_stream_mode" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

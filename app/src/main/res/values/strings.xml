@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Palm Sample</string>
+
+    <string-array name="stream_type">
+        <item>RGB</item>
+        <item>IR</item>
+        <item>DEPTH</item>
+        <item>RGBD</item>
+        <item>RGBIR</item>
+        <item>RGBD_IR</item>
+        <item>DEPTH_IR</item>
+    </string-array>
+
+</resources>
