@@ -44,6 +44,9 @@ android {
             jniLibs.srcDirs = [/*"../prebuilt/stream/libs/veinshine/lib",*/ "../../base_lib", "libs"]
             assets.srcDirs = ['../assets/models']
         }
+        main {
+            jniLibs.srcDirs = ["libs"]
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
